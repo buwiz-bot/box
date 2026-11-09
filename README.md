@@ -1,5 +1,7 @@
 # grok-box
 
+> **This repo is frozen.** The box lives on as **buwiz-computer** at [buwiz-bot/computer](https://github.com/buwiz-bot/computer): the same code, renamed, with more since (several screens per computer, waiting on the screen, recording). New work, issues and releases go there. Nothing here is renamed, and nothing here gets fixes.
+
 A sandboxed Linux computer for agents: a guest Docker image, two HTTP daemons (`box-exec` and `box-host`), a `grok-box` CLI, and connect-only SDKs (Rust, TypeScript, Python).
 
 You start the guest. Then you talk to it over HTTP with a URL pair and a bearer token. This repo does **not** publish packages to crates.io, npm, or PyPI.
